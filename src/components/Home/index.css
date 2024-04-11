@@ -1,0 +1,41 @@
+.menu-tab-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0px;
+  overflow-x: auto;
+}
+
+.dishes-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.menu-tab {
+  display: flex;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.tab-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.active-class {
+  color: rgb(200, 28, 28);
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: rgb(200, 28, 28);
+}
+.menu-name {
+  font-size: 15px;
+  font-weight: 600;
+}
